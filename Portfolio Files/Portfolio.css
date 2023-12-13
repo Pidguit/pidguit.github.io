@@ -1,0 +1,26 @@
+/* CSS Document */
+
+.Gallery .Picture {
+	float: left;
+	width: 29%;
+	height: auto;
+	margin: 2.14%;
+	margin-top: 0px;
+	position: relative;
+	overflow: hidden;
+}
+.Gallery .Picture img {
+	object-fit: fill;
+	width: 100%;
+	background-color: rgba(116,197,150,1.00);
+}
+
+.Gallery .Picture img:hover {
+	opacity: .97;
+	background-color: rgba(116,197,150,.97)
+}
+
+h1 {
+	font-size: 60px;
+	font-family: Helvetica, Arial, sans-serif; 
+}
